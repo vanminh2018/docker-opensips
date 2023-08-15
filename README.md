@@ -1,4 +1,4 @@
-# OpenSIPS Docker ImageVariables
+# OpenSIPS Docker
 
 Edit variables:
 
