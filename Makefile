@@ -21,4 +21,4 @@ build:
 		.
 
 start:
-	docker run -it -d --restart always --name $(NAME) -p 5060:5060/udp opensips/opensips:$(OPENSIPS_DOCKER_TAG)
+	docker run -it -d --restart always --name $(NAME) --hostname $(NAME) -p 5060:5060/udp opensips/opensips:$(OPENSIPS_DOCKER_TAG)
