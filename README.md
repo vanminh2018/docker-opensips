@@ -43,6 +43,12 @@ Running an Interactive Shell in container:
 sudo docker exec -it sbc bash
 ```
 
+Running an OpenSIPS Command Line Interface in container:
+
+```bash
+sudo docker exec -it sbc opensips-cli
+```
+
 Restart container:
 
 ```bash
