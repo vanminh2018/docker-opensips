@@ -37,7 +37,7 @@ Buid image + start container:
 sudo make all
 ```
 
-Running an Interactive Shell in Container:
+Running an Interactive Shell in container:
 
 ```bash
 sudo docker exec -it sbc bash
